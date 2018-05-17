@@ -12,7 +12,7 @@ body{
 }
 
 .container{
-	padding: 105px 100px;
+	padding: 0px 200px;
 }
 
 header{
@@ -24,6 +24,10 @@ header{
 	height: 1100px;
 }
 
+.menu{
+	padding: 105px 100px;
+}
+
 .burger{
 	float:left;
 }
@@ -33,7 +37,7 @@ header{
 }
 
 .header_info{
-	padding-top: 320px;
+	padding-top: 210px;
 	width: 50%;
 	float: left;
 }
@@ -42,7 +46,7 @@ header{
 	font-family: Lato;
 	font-size: 49px;
 	color: white;
-	font-weight: bold;
+	font-weight: 900;
 	text-align: right;
 }
 
@@ -56,9 +60,6 @@ header{
 	font-size: 14px;
 }
 
-.header_photo{
-	padding-top: 80px;
-}
 
 .splitter{
 	background-color: rgb(93, 173, 226);
@@ -66,11 +67,10 @@ header{
 	z-index: 10;
     position: absolute;
     top: 830px;
-    width: 100%;
 }
 
 .btn_header{
-	padding-left: 110px;
+	padding-left: 70px;
 }
 
 .btn_header > button{
@@ -84,9 +84,10 @@ header{
     width: 167px;
     height: 48px;
     transition-duration: 0.8s;
-    margin-left: 33px;
+    margin-left: 30px;
     margin-top: 36px;
 }
+
 
 .btn_header > button:hover{
 	background-color: #eff3f3;
@@ -110,7 +111,63 @@ header{
 
 .splitter > p{
 	text-align: center;
-	width: 70%;
 	margin: auto;
 	margin-top: 10px;
+}
+
+.iphone_header{
+	position: absolute;
+    top: 176px;	
+}
+
+.social{
+	background-color: white;
+	position: absolute;
+    top: 980px;
+}
+
+.social_photo{
+	padding-top: 100px;
+	float: left;
+	width: 49%;
+}
+
+.social_content{
+	padding-top: 230px;
+	float: right;
+	width: 49%;
+	color: #696969;
+	text-align: right;
+}
+
+.social_content > p{
+	padding-top: 25px;
+	color: #566473;
+	text-align: right;
+}
+
+.basic_title{
+	font-family: Raleway;
+	font-size: 30px;
+	color: #566473;
+	font-weight: 700;
+	line-height: 43px;
+}
+
+.today_menu{
+	position: absolute;
+	top: 1635px;
+    background-color: #eff3f3;
+}
+
+.menu_photo{
+	padding-top: 100px;
+	float: right;
+	width: 49%;
+}
+
+.menu_content{
+	padding-top: 200px;
+	float: left;
+	width: 49%;
 }
