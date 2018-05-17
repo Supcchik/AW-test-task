@@ -222,4 +222,64 @@ header{
 	position: absolute;
 	top: 3010px;
 	background-color: #eff3f3;
+	padding: 50px 0px;
+}
+
+
+
+
+
+
+
+
+
+/*slider*/
+.slider {
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+
+    .comment_img {
+      float: left;
+      width: 30%;
+    }
+
+    .comment_img > img{
+      border-radius: 70%;
+      height: 140px;
+      width: 140px;
+      border: 3px solid #3498db;
+      padding: 6px; 
+    }
+
+.comment_text{
+	width: 69%;
+	float: right;
 }
