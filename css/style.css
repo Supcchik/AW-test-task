@@ -166,8 +166,60 @@ header{
 	width: 49%;
 }
 
+.menu_photo > img{
+	float: right;
+}
+
 .menu_content{
 	padding-top: 200px;
 	float: left;
 	width: 49%;
+}
+
+.menu_content > p{
+	color: #566473;
+}
+
+.gallery{
+	background-image: url(../img/gallery_bg.png);
+	background-repeat: no-repeat;
+    background-size: 130%;
+    background-color: #3498db;
+    position: absolute;
+    top: 2280px;
+    height: 730px;
+    width: 100%
+}
+
+.gallery_content > img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+}
+
+
+.gallery_h2{
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 28px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.gallery_h1{
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.comment{
+	height: 265px;
+	width: 100%;
+	position: absolute;
+	top: 3010px;
+	background-color: #eff3f3;
 }
